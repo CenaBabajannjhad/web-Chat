@@ -331,6 +331,7 @@ button:hover {
     bottom: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-top: 2px solid var(--gray-blue-color);
 }
 .main-input{
@@ -338,9 +339,13 @@ button:hover {
     background: none;
     border: none;
     padding: 20px;
+    color: var(--white-color);
+}
+.main-input:focus{
+    outline: none;
 }
 .main-input-buttons{
-    width: 20%;
+    margin-right: 20px;
 }
 .main-input-buttons > button{
     color: var(--chat-icon-color);
