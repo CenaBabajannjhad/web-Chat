@@ -317,3 +317,32 @@ button:hover {
     margin-right: 20px;
     color: var(--chat-icon-color);
 }
+
+/* chat-input */
+.current-chat-container{
+    position: relative;
+}
+.input-container{
+    width: 80%;
+}
+.chat-input{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid var(--gray-blue-color);
+}
+.main-input{
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 20px;
+}
+.main-input-buttons{
+    width: 20%;
+}
+.main-input-buttons > button{
+    color: var(--chat-icon-color);
+    margin-right: 5px;
+}
